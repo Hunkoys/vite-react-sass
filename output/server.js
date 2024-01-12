@@ -15,6 +15,5 @@ if (!process.env['VITE']) {
 
   const PORT = process.env['PORT'] || 3000;
 
-  app.listen(PORT);
-  console.log(PORT);
+  app.listen(PORT, '127.0.0.1', () => console.log(`Access your website on: localhost:${PORT}`));
 }
