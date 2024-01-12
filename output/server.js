@@ -6,6 +6,8 @@ export const app = express();
 
 const DIRNAME = dirname(fileURLToPath(import.meta.url));
 
+app.use(express.json());
+
 pathss(app);
 
 if (!process.env['VITE']) {
