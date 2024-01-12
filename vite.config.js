@@ -7,14 +7,6 @@ export default defineConfig({
   plugins: [react(), express('output/server')],
   publicDir: 'src/public',
   build: {
-    rollupOptions: {
-      input: {
-        index: 'index.html',
-      },
-      output: {
-        dir: 'output/dist',
-        entryFileNames: '[name].html',
-      },
-    },
+    outDir: 'output/dist',
   },
 });
