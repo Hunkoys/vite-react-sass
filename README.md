@@ -7,6 +7,8 @@ Stack:
 * Sass
 * Expressjs
 
+<br>
+
 ## Development
 
 ### 1. Download
@@ -35,7 +37,7 @@ npm run dev
 
 You'll then be given a link. Type it in your prefered browser to preview changes on your code.
 
-
+<br>
 
 ## Deploy
 
