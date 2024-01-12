@@ -2,6 +2,11 @@
 
 This is my simple boilerplate code for react.
 
+Stack:
+* React
+* Sass
+* Expressjs
+
 ## Development
 
 ### 1. Download
